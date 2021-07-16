@@ -24,6 +24,36 @@ let curr_track = document.createElement('audio');
 
 // Define the list of tracks that have to be played
 let track_list = [
+    {
+        name: "Something Just Like This",
+        artist: "Codeplay & The Chainsmokers",
+        image: "https://upload.wikimedia.org/wikipedia/en/5/57/Something_Just_Like_This.png",
+        path: "somethinglikethis.mp3",
+    },
+    {
+        name: "ME!",
+        artist: "Tailor Swift",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Me%21.png",
+        path: "me.mp3",
+    },
+    {
+        name: "Am I Wrong?",
+        artist: "Nico & Vinz",
+        image: "https://upload.wikimedia.org/wikipedia/en/c/c7/Nico-Vinz-Am-I-Wrong.png",
+        path: "wrong.mp3",
+    },
+    {
+        name: "We Don't Talk Anymore",
+        artist: "Charlie Puth",
+        image: "https://m.media-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
+        path: "notalkanymore.mp3",
+    },
+    {
+        name: "On & On",
+        artist: "Cartoon",
+        image: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/152/1000x0/on-on-feat-daniel-levi-1586947008-oeI24in2Ga.jpg",
+        path: "on&on.mp3",
+    },
 {
 	name: "Electric",
 	artist: "Katy Perry",
@@ -103,29 +133,36 @@ let track_list = [
 	path: "shutupandrive.mp3",
 },
 {
-	name: "ME!",
+	name: "Lean On",
+	artist: "DJ Snake",
+	image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Major_Lazer_and_DJ_Snake_-_Lean_On_%28feat._M%C3%98%29.png",
+	path: "leanon.mp3",
+},
+{
+	name: "Melt In My Touch",
+	artist: "Vidya Vox",
+	image: "https://i.ytimg.com/vi/w9KjZpuWmNw/maxresdefault.jpg",
+	path: "meltmytouch.mp3",
+},
+{
+	name: "Fly Away",
+	artist: "The Fat Rat",
+	image: "https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/AJbD265G3n/size_xxl.webp",
+	path: "fly_away.mp3",
+},
+{
+	name: "You Need To Calm Down",
 	artist: "Tailor Swift",
-	image: "https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Me%21.png",
-	path: "me.mp3",
+	image: "https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/jfrjoalmc3djaor1hymw.png",
+	path: "yntcd.mp3",
 },
 {
-	name: "Am I Wrong?",
-	artist: "Nico & Vinz",
-	image: "https://upload.wikimedia.org/wikipedia/en/c/c7/Nico-Vinz-Am-I-Wrong.png",
-	path: "wrong.mp3",
+	name: "Don't Leave",
+	artist: "Snakehip",
+	image: "https://i.ytimg.com/vi/LpAhGNIeptI/maxresdefault.jpg",
+	path: "dontleave.mp3",
 },
-{
-	name: "We Don't Talk Anymore",
-	artist: "Charlie Puth",
-	image: "https://m.media-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
-	path: "notalkanymore.mp3",
-},
-{
-	name: "On & On",
-	artist: "Cartoon",
-	image: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/152/1000x0/on-on-feat-daniel-levi-1586947008-oeI24in2Ga.jpg",
-	path: "on&on.mp3",
-},
+
 ];
 
 function loadTrack(track_index) {
