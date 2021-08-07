@@ -64,7 +64,7 @@ let track_list = [
         name: "Faded",
         artist: "Alan Walker",
         image: "https://www.songmeaningsandfacts.com/wp-content/uploads/2019/12/Alan-Walker.png",
-        path: "faded.pm3",
+        path: "faded.mp3",
     },
     {
         name: "Memories",
