@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "You Belong With Me",
+        artist: "Tailor Swift",
+        image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
+        path: "belong.mp3",
+    },
+    {
         name: "Something Just Like This",
         artist: "Codeplay & The Chainsmokers",
         image: "https://upload.wikimedia.org/wikipedia/en/5/57/Something_Just_Like_This.png",
@@ -37,6 +43,12 @@ let track_list = [
         path: "everything.mp3",
     },
     {
+        name: "Happier",
+        artist: "Marshmello",
+        image: "https://upload.wikimedia.org/wikipedia/en/e/e5/Marshmello_and_Bastille_Happier.png",
+        path: "happiness.mp3",
+    },
+    {
         name: "Work From Home",
         artist: "Fifth Harmony",
         image: "https://upload.wikimedia.org/wikipedia/en/f/f5/Work_From_Home_%28featuring_Ty_Dolla_%24ign%29_%28Official_Single_Cover%29_by_Fifth_Harmony.png",
@@ -46,7 +58,13 @@ let track_list = [
         name: "On My Way",
         artist: "Alan Walker",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50oUVpinYPjZWJcYYNQ0BfG76M_iGw9bYSArETxy6-SBkNSoUVimrDed75FXfKw9YaOE&usqp=CAU",
-        path: "way.mp3",
+        path: "way.mp3"
+    },
+    {
+        name: "Shake It Off",
+        artist: "Tailor Swift",
+        image: "https://hooksandharmony.com/wp-content/uploads/2014/12/Taylor-Swift-Shake-It-Off-e1534088206551.jpg",
+        path: "shake-it-of.mp3"
     },
     {
         name: "Down",
