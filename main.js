@@ -25,6 +25,60 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Permission To Dance",
+        artist: "BTS",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/04/BTS_-_Permission_to_Dance.png",
+        path: "dance.mp3",
+    },
+    {
+        name: "Wolves",
+        artist: "Selena Gomez",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/73/Selena_Gomez_and_Marshmello_Wolves.jpg",
+        path: "wolves.mp3",
+    },
+    {
+        name: "Shine Your Way",
+        artist: "Owl City & Yuna",
+        image: "https://i1.sndcdn.com/artworks-000045155295-l7l0ni-t500x500.jpg",
+        path: "shine.mp3",
+    },
+    {
+        name: "Savage Love",
+        artist: "Jason Derulo",
+        image: "https://i.ytimg.com/vi/gUci-tsiU4I/maxresdefault.jpg",
+        path: "love.mp3",
+    },
+    {
+        name: "Better Place",
+        artist: "Rachel Platern",
+        image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Rachel_Platten_%22Better_Place%22.jpg",
+        path: "place.mp3",
+    },
+    {
+        name: "Butter",
+        artist: "BTS",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/BTS_-_Butter.png/220px-BTS_-_Butter.png",
+        path: "butter.mp3",
+    },
+    {
+        name: "Mood",
+        artist: "24KGoldn",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png",
+        path: "mood.mp3",
+    },
+    {
+        name: "The Other Side",
+        artist: "Jason Derulo",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/The_Other_Side_%28Jason_Derulo_song%29_cover.jpg/220px-The_Other_Side_%28Jason_Derulo_song%29_cover.jpg",
+        path: "side.mp3",
+    },
+    {
+        name: "Alive",
+        artist: "Krewella",
+        image: "https://i1.sndcdn.com/artworks-000214884855-99l1mb-t500x500.jpg",
+        path: "alive.mp3",
+    },
+    {
         name: "You Belong With Me",
         artist: "Tailor Swift",
         image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
@@ -41,6 +95,12 @@ let track_list = [
         artist: "Shakira",
         image: "https://i1.sndcdn.com/artworks-fD7j20C80pB7-0-t500x500.jpg",
         path: "everything.mp3",
+    },
+    {
+        name: "Fight Song",
+        artist: "Rachel Platern",
+        image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Fight_Song_by_Rachel_Platten.png",
+        path: "fight.mp3",
     },
     {
         name: "Happier",
@@ -231,7 +291,7 @@ let track_list = [
 {
 	name: "Don't Leave",
 	artist: "Snakehip",
-	image: "https://i.ytimg.com/vi/LpAhGNIeptI/maxresdefault.jpg",
+	image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SnakeHipsDontLeave.jpg/220px-SnakeHipsDontLeave.jpg",
 	path: "dontleave.mp3",
 },
 
