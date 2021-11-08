@@ -25,10 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Fight Song",
+        artist: "Rachel Platern",
+        image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Fight_Song_by_Rachel_Platten.png",
+        path: "fight.mp3",
+    },
+    {
         name: "Permission To Dance",
         artist: "BTS",
         image: "https://upload.wikimedia.org/wikipedia/en/0/04/BTS_-_Permission_to_Dance.png",
         path: "dance.mp3",
+    },
+    {
+        name: "Love Story",
+        artist: "Taylor Swift",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Love_Story.png",
+        path: "love_story.mp3",
     },
     {
         name: "Wolves",
@@ -41,12 +53,6 @@ let track_list = [
         artist: "Owl City & Yuna",
         image: "https://i1.sndcdn.com/artworks-000045155295-l7l0ni-t500x500.jpg",
         path: "shine.mp3",
-    },
-    {
-        name: "Savage Love",
-        artist: "Jason Derulo",
-        image: "https://i.ytimg.com/vi/gUci-tsiU4I/maxresdefault.jpg",
-        path: "love.mp3",
     },
     {
         name: "Better Place",
@@ -80,7 +86,7 @@ let track_list = [
     },
     {
         name: "You Belong With Me",
-        artist: "Tailor Swift",
+        artist: "Taylor Swift",
         image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
         path: "belong.mp3",
     },
@@ -97,10 +103,10 @@ let track_list = [
         path: "everything.mp3",
     },
     {
-        name: "Fight Song",
-        artist: "Rachel Platern",
-        image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Fight_Song_by_Rachel_Platten.png",
-        path: "fight.mp3",
+        name: "We Are Never Getting Back Together",
+        artist: "Taylor Swift",
+        image: "https://upload.wikimedia.org/wikipedia/en/4/40/We_Are_Never_Ever_Getting_Back_Together.png",
+        path: "back.mp3",
     },
     {
         name: "Happier",
@@ -113,6 +119,12 @@ let track_list = [
         artist: "Fifth Harmony",
         image: "https://upload.wikimedia.org/wikipedia/en/f/f5/Work_From_Home_%28featuring_Ty_Dolla_%24ign%29_%28Official_Single_Cover%29_by_Fifth_Harmony.png",
         path: "work.mp3",
+    },
+    {
+        name: "Savage Love",
+        artist: "Jason Derulo",
+        image: "https://i.ytimg.com/vi/gUci-tsiU4I/maxresdefault.jpg",
+        path: "love.mp3",
     },
     {
         name: "On My Way",
@@ -223,6 +235,12 @@ let track_list = [
 	path: "closer.mp3",
 },
 {
+	name: "I Knew You Were Trouble",
+	artist: "Taylor Swift",
+	image: "https://upload.wikimedia.org/wikipedia/en/7/70/I_Knew_You_Were_Trouble.png",
+	path: "trouble.mp3",
+},
+{
 	name: "Baby",
 	artist: "Justin Bieber",
 	image: "https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg",
@@ -284,7 +302,7 @@ let track_list = [
 },
 {
 	name: "You Need To Calm Down",
-	artist: "Tailor Swift",
+	artist: "Taylor Swift",
 	image: "https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/jfrjoalmc3djaor1hymw.png",
 	path: "yntcd.mp3",
 },
@@ -293,6 +311,18 @@ let track_list = [
 	artist: "Snakehip",
 	image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/SnakeHipsDontLeave.jpg/220px-SnakeHipsDontLeave.jpg",
 	path: "dontleave.mp3",
+},
+{
+	name: "Locked Away",
+	artist: "R.CITY",
+	image: "https://i1.sndcdn.com/artworks-000151112949-iqvzwh-t500x500.jpg",
+	path: "locked.mp3",
+},
+{
+    name: "Pretty Girl",
+    artist: "Maggie Lindemann",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/53/Pretty_Girl_%28Official_Single_Cover%29_by_Maggie_Lindemann.png",
+    path: "girl.mp3",
 },
 
 ];
