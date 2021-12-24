@@ -25,16 +25,28 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Fight Song",
-        artist: "Rachel Platern",
-        image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Fight_Song_by_Rachel_Platten.png",
-        path: "fight.mp3",
+        name: "Okay Not To Be Okay",
+        artist: "Marshmello & Demi Lovato",
+        image: "https://maalyrics.com/wp-content/uploads/2020/09/Ok-not-to-be-ok.jpg",
+        path: "okay.mp3",
     },
     {
-        name: "Permission To Dance",
-        artist: "BTS",
-        image: "https://upload.wikimedia.org/wikipedia/en/0/04/BTS_-_Permission_to_Dance.png",
-        path: "dance.mp3",
+        name: "I Like Me Better",
+        artist: "Lauv",
+        image: "https://images.genius.com/7914cb8fd663b4b50f81117fbd0616f2.300x300x1.jpg",
+        path: "me_better.mp3",
+    },
+    {
+        name: "Levitating",
+        artist: "Dua Lipa",
+        image: "levitating.png",
+        path: "levitate.mp3",
+    },
+    {
+        name: "Can't Stop The Feeling",
+        artist: "Justin Timberlake",
+        image: "https://upload.wikimedia.org/wikipedia/en/2/21/Justin_Timberlake_-_Can%27t_Stop_the_Feeling.png",
+        path: "feeling.mp3",
     },
     {
         name: "Love Story",
@@ -43,10 +55,22 @@ let track_list = [
         path: "love_story.mp3",
     },
     {
-        name: "Wolves",
-        artist: "Selena Gomez",
-        image: "https://upload.wikimedia.org/wikipedia/en/7/73/Selena_Gomez_and_Marshmello_Wolves.jpg",
-        path: "wolves.mp3",
+        name: "Domino",
+        artist: "Jessie J",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Domino_cover.png/220px-Domino_cover.png",
+        path: "domino.mp3",
+    },
+    {
+        name: "Psycho",
+        artist: "Post Malone",
+        image: "https://maalyrics.com/wp-content/uploads/2020/12/PSYCHO-Song-Lyrics-Post-Malone-Ty-Dolla-ign.jpg",
+        path: "psycho.mp3",
+    },
+    {
+        name: "Fight Song",
+        artist: "Rachel Platern",
+        image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Fight_Song_by_Rachel_Platten.png",
+        path: "fight.mp3",
     },
     {
         name: "Shine Your Way",
@@ -59,12 +83,6 @@ let track_list = [
         artist: "Rachel Platern",
         image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Rachel_Platten_%22Better_Place%22.jpg",
         path: "place.mp3",
-    },
-    {
-        name: "Butter",
-        artist: "BTS",
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/BTS_-_Butter.png/220px-BTS_-_Butter.png",
-        path: "butter.mp3",
     },
     {
         name: "Mood",
@@ -85,16 +103,10 @@ let track_list = [
         path: "alive.mp3",
     },
     {
-        name: "You Belong With Me",
-        artist: "Taylor Swift",
-        image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
-        path: "belong.mp3",
-    },
-    {
-        name: "Something Just Like This",
-        artist: "Codeplay & The Chainsmokers",
-        image: "https://upload.wikimedia.org/wikipedia/en/5/57/Something_Just_Like_This.png",
-        path: "somethinglikethis.mp3",
+        name: "Faded",
+        artist: "Alan Walker",
+        image: "https://www.songmeaningsandfacts.com/wp-content/uploads/2019/12/Alan-Walker.png",
+        path: "faded.mp3",
     },
     {
         name: "Try Everything",
@@ -103,10 +115,34 @@ let track_list = [
         path: "everything.mp3",
     },
     {
+        name: "DarkSide",
+        artist: "Alan Walker",
+        image: "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/31022688/original/resize:600x700/crop:x0y143w683h512/aspect:1.0/hash:1537559221/alanwalkerdarkside.jpg?1537559221",
+        path: "dark.mp3",
+    },
+    {
+        name: "Something Just Like This",
+        artist: "Codeplay & The Chainsmokers",
+        image: "https://upload.wikimedia.org/wikipedia/en/5/57/Something_Just_Like_This.png",
+        path: "somethinglikethis.mp3",
+    },
+    {
+        name: "You Belong With Me",
+        artist: "Taylor Swift",
+        image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
+        path: "belong.mp3",
+    },
+    {
         name: "We Are Never Getting Back Together",
         artist: "Taylor Swift",
         image: "https://upload.wikimedia.org/wikipedia/en/4/40/We_Are_Never_Ever_Getting_Back_Together.png",
         path: "back.mp3",
+    },
+    {
+        name: "Butter",
+        artist: "BTS",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/BTS_-_Butter.png/220px-BTS_-_Butter.png",
+        path: "butter.mp3",
     },
     {
         name: "Happier",
@@ -119,12 +155,6 @@ let track_list = [
         artist: "Fifth Harmony",
         image: "https://upload.wikimedia.org/wikipedia/en/f/f5/Work_From_Home_%28featuring_Ty_Dolla_%24ign%29_%28Official_Single_Cover%29_by_Fifth_Harmony.png",
         path: "work.mp3",
-    },
-    {
-        name: "Savage Love",
-        artist: "Jason Derulo",
-        image: "https://i.ytimg.com/vi/gUci-tsiU4I/maxresdefault.jpg",
-        path: "love.mp3",
     },
     {
         name: "On My Way",
@@ -145,16 +175,22 @@ let track_list = [
         path: "down.mp3",
     },
     {
+        name: "Permission To Dance",
+        artist: "BTS",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/04/BTS_-_Permission_to_Dance.png",
+        path: "dance.mp3",
+    },
+    {
+        name: "Wolves",
+        artist: "Selena Gomez",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/73/Selena_Gomez_and_Marshmello_Wolves.jpg",
+        path: "wolves.mp3",
+    },
+    {
         name: "Without Me",
         artist: "Halsey",
         image: "https://i1.sndcdn.com/artworks-Tr50f7qyyHSAo2D2-9HoNNg-t500x500.jpg",
         path: "without.mp3",
-    },
-    {
-        name: "Faded",
-        artist: "Alan Walker",
-        image: "https://www.songmeaningsandfacts.com/wp-content/uploads/2019/12/Alan-Walker.png",
-        path: "faded.mp3",
     },
     {
         name: "Memories",
@@ -167,12 +203,6 @@ let track_list = [
         artist: "Shawn Mendes & Camila Cabello",
         image: "https://assets.audiomack.com/djdeffrost/9d5c957a626a51bfe844d00b41945663050168d7ceae47ef9ab5f4a2c6faea49.jpeg?width=1000&height=1000&max=true",
         path: "senorita.mp3",
-    },
-    {
-        name: "DarkSide",
-        artist: "Alan Walker",
-        image: "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/31022688/original/resize:600x700/crop:x0y143w683h512/aspect:1.0/hash:1537559221/alanwalkerdarkside.jpg?1537559221",
-        path: "dark.mp3",
     },
     {
         name: "ME!",
@@ -281,6 +311,12 @@ let track_list = [
 	artist: "Rihanaa",
 	image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Shut_Up_and_Drive_-_Single.PNG/220px-Shut_Up_and_Drive_-_Single.PNG",
 	path: "shutupandrive.mp3",
+},
+{
+    name: "Savage Love",
+    artist: "Jason Derulo",
+    image: "https://i.ytimg.com/vi/gUci-tsiU4I/maxresdefault.jpg",
+    path: "love.mp3",
 },
 {
 	name: "Lean On",
