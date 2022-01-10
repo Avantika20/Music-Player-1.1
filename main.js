@@ -25,6 +25,30 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Savannah",
+        artist: "Diviners",
+        image: "https://i.scdn.co/image/ab67616d0000b273b536cfb98c74558db48f8a46",
+        path: "savannah.mp3",
+    },
+    {
+        name: "Alone",
+        artist: "Alan Walker",
+        image: "https://i.ytimg.com/vi/_rPtyPAFsHU/maxresdefault.jpg",
+        path: "alone.mp3",
+    },
+    {
+        name: "Stay",
+        artist: "The Kid LAROI, Justin Bieber",
+        image: "https://1.bp.blogspot.com/-T9pEj8NBlRQ/YOyHw-1zDZI/AAAAAAAABL8/qe1R8lwT9iUfiGC36NU--GdYxOFI1MzZQCLcBGAsYHQ/w617-h617/The%2BKid%2BLAROI%2BStay%2B%2Blyrics%2Bsong.png",
+        path: "stay.mp3",
+    },
+    {
+        name: "Lily",
+        artist: "Alan Walker",
+        image: "https://th.bing.com/th/id/OIP.zd931rAkN_SzyRGXZs8qtgHaHa?pid=ImgDet&rs=1",
+        path: "lily.mp3",
+    },
+    {
         name: "Okay Not To Be Okay",
         artist: "Marshmello & Demi Lovato",
         image: "https://maalyrics.com/wp-content/uploads/2020/09/Ok-not-to-be-ok.jpg",
@@ -65,6 +89,18 @@ let track_list = [
         artist: "Post Malone",
         image: "https://maalyrics.com/wp-content/uploads/2020/12/PSYCHO-Song-Lyrics-Post-Malone-Ty-Dolla-ign.jpg",
         path: "psycho.mp3",
+    },
+    {
+        name: "Beggin'",
+        artist: "Måneskin",
+        image: "https://f4.bcbits.com/img/a0807901239_5.jpg",
+        path: "beggin.mp3",
+    },
+    {
+        name: "7 Years",
+        artist: "Lukas Graham",
+        image: "https://th.bing.com/th/id/OIP.WEDuouFKTyXwhOqQlzsQSAHaEK?pid=ImgDet&rs=1",
+        path: "7yrs.mp3",
     },
     {
         name: "Fight Song",
@@ -127,6 +163,12 @@ let track_list = [
         path: "somethinglikethis.mp3",
     },
     {
+        name: "Dance Monkey",
+        artist: "Tones And I",
+        image: "https://images.genius.com/ede1aee3ff875d14a591481f3cee0459.1000x1000x1.png",
+        path: "monkey.mp3",
+    },
+    {
         name: "You Belong With Me",
         artist: "Taylor Swift",
         image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png",
@@ -185,6 +227,12 @@ let track_list = [
         artist: "Selena Gomez",
         image: "https://upload.wikimedia.org/wikipedia/en/7/73/Selena_Gomez_and_Marshmello_Wolves.jpg",
         path: "wolves.mp3",
+    },
+    {
+        name: "Believer",
+        artist: "Imagine Dragons",
+        image: "https://www.quirkybyte.com/wp-content/uploads/2019/06/Believer-Song-Download-Mp3-Direct.jpg",
+        path: "believe.mp3",
     },
     {
         name: "Without Me",
