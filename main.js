@@ -25,6 +25,132 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Try",
+        artist: "Colbie Caillat",
+        image: "https://i.scdn.co/image/ab67616d0000b27363ac1430fefbb21daca11181",
+        path: "try.mp3",
+    },
+    {
+        name: "A Thousand Years",
+        artist: "Christina Perri",
+        image: "https://c-fa.cdn.smule.com/rs-s93/arr/32/d3/a3ae70a5-265b-45be-935d-d69828ae7a6c_1024.jpg",
+        path: "1000yrs.mp3",
+    },
+    {
+        name: "Way Back Home",
+        artist: "SHAUN",
+        image: "https://pbs.twimg.com/media/D_G2Lo8VUAAabJh.jpg",
+        path: "home.mp3",
+    },
+    {
+        name: "Pretty Girl",
+        artist: "Maggie Lindemann",
+        image: "https://upload.wikimedia.org/wikipedia/en/5/53/Pretty_Girl_%28Official_Single_Cover%29_by_Maggie_Lindemann.png",
+        path: "girl.mp3",
+    },
+    {
+        name: "Give Me A Kiss",
+        artist: "Crash Adams",
+        image: "https://i.scdn.co/image/ab67616d0000b273571f7242fe8e6d72832eb9a7",
+        path: "givemekiss.mp3",
+    },
+        {
+        name: "Bad Days",
+        artist: "Levent Geiger",
+        image: "https://p16-sg.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/87b35954de5c4baaa5cd2a1f08c89d93.jpeg",
+        path: "badays.mp3",
+    },
+    {
+        name: "Getaway Car",
+        artist: "Taylor Swift",
+        image: "https://images.genius.com/eca54f8a7bb9febd02147770cdaf70fb.850x850x1.jpg",
+        path: "car.mp3",
+    },
+    {
+        name: "Stay",
+        artist: "The Kid LAROI, Justin Bieber",
+        image: "https://1.bp.blogspot.com/-T9pEj8NBlRQ/YOyHw-1zDZI/AAAAAAAABL8/qe1R8lwT9iUfiGC36NU--GdYxOFI1MzZQCLcBGAsYHQ/w617-h617/The%2BKid%2BLAROI%2BStay%2B%2Blyrics%2Bsong.png",
+        path: "stay.mp3",
+    },
+    {
+        name: "Wildest Dreams",
+        artist: "Taylor Swift",
+        image: "https://i.scdn.co/image/ab67616d0000b273eb10050f6fe8e2783a91a4b1",
+        path: "dreams.mp3",
+    },
+    {
+        name: "Dandelions",
+        artist: "Ruth B.",
+        image: "https://upload.wikimedia.org/wikipedia/en/e/ef/Ruth_B._-_Dandelions.png",
+        path: "dandelions.mp3",
+    },
+    {
+        name: "Shut Up and Dance",
+        artist: "Walk The Moon",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Walk_the_Moon_-_Shut_Up_and_Dance_%28Official_Single_Cover%29.png/220px-Walk_the_Moon_-_Shut_Up_and_Dance_%28Official_Single_Cover%29.png",
+        path: "shutup.mp3",
+    },
+    {
+        name: "All I Want",
+        artist: "Olivia Rodrigo",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/18/Olivia_Rodrigo_-_All_I_Want.png",
+        path: "alliwant.mp3",
+    },
+    {
+        name: "Firework",
+        artist: "Katy Perry",
+        image: "https://c-fa.cdn.smule.com/rs-s79/arr/3b/4a/b479ae98-74cb-4f35-b823-a1e3fae5858b_1024.jpg",
+        path: "firework.mp3",
+    },
+    {
+        name: "Stitches",
+        artist: "Shawn Mendes",
+        image: "https://m.media-amazon.com/images/M/MV5BMjMwM2Y5NGMtZTk4ZS00ZTA2LWI0YjQtN2U1MGM3NzE2YjhlXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg",
+        path: "stiches.mp3",
+    },
+    {
+        name: "Story Of My Life",
+        artist: "One Direction",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/7d/One_Direction_-_Story_of_My_Life_%28Official_Single_Cover%29.png",
+        path: "storyoflife.mp3",
+    },
+    {
+        name: "Shout Out to My Ex",
+        artist: "Little Mix",
+        image: "https://images.genius.com/ab27d2e275448a3c7d9148be0b880bb1.1000x1000x1.jpg",
+        path: "ex.mp3",
+    },
+    {
+        name: "Call Me Maybe",
+        artist: "Carly Rae Jepsen",
+        image: "https://upload.wikimedia.org/wikipedia/en/a/ad/Carly_Rae_Jepsen_-_Call_Me_Maybe.png",
+        path: "call.mp3",
+    },
+    {
+        name: "Anyone",
+        artist: "Justin Bieber",
+        image: "https://upload.wikimedia.org/wikipedia/en/0/0d/Justin_Bieber_-_Anyone.png",
+        path: "anyone.mp3",
+    },
+        {
+        name: "Steal My Girl",
+        artist: "One Direction",
+        image: "https://i.scdn.co/image/ab67616d0000b27373cdc2d4404deefddea7d683",
+        path: "stealmygirl.mp3",
+    },
+    {
+        name: "Black Magic",
+        artist: "Little Mix",
+        image: "https://upload.wikimedia.org/wikipedia/en/d/d7/Little_Mix_-_Black_Magic_%28Official_Single_Cover%29.png",
+        path: "blackmagic.mp3",
+    },
+    {
+        name: "Traitor",
+        artist: "Olivia Rodrigo",
+        image: "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a",
+        path: "traitor.mp3",
+    },
+    {
         name: "Savannah",
         artist: "Diviners",
         image: "https://i.scdn.co/image/ab67616d0000b273b536cfb98c74558db48f8a46",
@@ -36,11 +162,11 @@ let track_list = [
         image: "https://i.ytimg.com/vi/_rPtyPAFsHU/maxresdefault.jpg",
         path: "alone.mp3",
     },
-    {
-        name: "Stay",
-        artist: "The Kid LAROI, Justin Bieber",
-        image: "https://1.bp.blogspot.com/-T9pEj8NBlRQ/YOyHw-1zDZI/AAAAAAAABL8/qe1R8lwT9iUfiGC36NU--GdYxOFI1MzZQCLcBGAsYHQ/w617-h617/The%2BKid%2BLAROI%2BStay%2B%2Blyrics%2Bsong.png",
-        path: "stay.mp3",
+        {
+        name: "Live While We're Young",
+        artist: "One Direction",
+        image: "https://images.genius.com/41f521888a5c10913a534232f2a822cd.1000x1000x1.jpg",
+        path: "live_young.mp3",
     },
     {
         name: "Lily",
@@ -402,12 +528,7 @@ let track_list = [
 	image: "https://i1.sndcdn.com/artworks-000151112949-iqvzwh-t500x500.jpg",
 	path: "locked.mp3",
 },
-{
-    name: "Pretty Girl",
-    artist: "Maggie Lindemann",
-    image: "https://upload.wikimedia.org/wikipedia/en/5/53/Pretty_Girl_%28Official_Single_Cover%29_by_Maggie_Lindemann.png",
-    path: "girl.mp3",
-},
+
 
 ];
 
